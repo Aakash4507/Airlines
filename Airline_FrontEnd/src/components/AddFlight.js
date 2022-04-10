@@ -159,12 +159,13 @@ let styling = {
         paddingBottom : 100
     },
     heading : {
-        color : "#333333",
+        color : "black",
         textAlign: "center"
     },
     formStyle : {
         minWidth: 300, 
-        maxWidth: 500
+        maxWidth: 500,
+       
     }
 }
 

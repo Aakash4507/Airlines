@@ -52,7 +52,7 @@ class FlightList extends React.Component {
  
         const flightlist = this.state.flights.map(f => {
             return (
-                <div className="card mr-4 mt-4" style={{width: 350, background: "#ffffff"}}>
+                <div className="card mr-4 mt-4" style={{width: 350, background: "#DCDCDC"}}>
                     
                     <div className="card-header">
                         <h5>Flight {f.flightNumber}</h5>

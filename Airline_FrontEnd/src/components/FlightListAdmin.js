@@ -107,7 +107,7 @@ class FlightListAdmin extends Component {
 
         const flightlist = this.state.flights.map(f => {
             return (
-                <div className="card m-4 " style={{width: 350, height: "fit-content"}}>
+                <div className="card m-4 " style={{width: 350,background: "#DCDCDC", height: "fit-content"}}>
                     
                         <div className="card-header">
                             <h5>Flight {f.flightNumber}</h5>
